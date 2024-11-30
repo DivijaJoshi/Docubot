@@ -1,0 +1,175 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello","hii","hey","how are yow doing?"],
+    "responses": ["Hello","Hey there!", "What can I do for you?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["thank you","appriciated","thanks for helping"],
+    "responses": ["Thank you for chatting with me. Have a great day!","Thank you for chatting with me. If you need any further assistance, please don't hesitate to let me know."]
+    },
+{
+    "tag": "tatkal",
+    "patterns": ["what is Tatkal scheme", "Tatkal scheme", "Difference between Tatkal and Normal Passport","normal vs tatkal","tatkal eligibility"],
+    "responses": ["A tatkal scheme allows one to skip the otherwise time-consuming passport application process. In addition, it presents a simpler way to get a passport, alongside a faster processing time, thereby providing you with a passport within a few days."]
+},
+{
+    "tag": "EligibilityRationCard",
+    "patterns": ["What is the Eligibility Criteria for a Ration Card?", "ration card eligibility", "who can apply for ration card", "apply ration card", "am i eligible to apply for ration card"],
+    "responses": ["If you wish to apply for a Ration Card online, you will have to ensure that you meet the basic eligibility criteria first which includes- 1. No one should have applied for a Ration Card on your behalf, 2. You should be the first one from your family to apply for the ration card, 3. You should be an Indian citizen.", "You must be a resident of Maharashtra and should not hold any other ration card in your name. You must also fall under the income criteria fixed by the Maharashtra Government to apply for ration card.", "You must be a resident of Maharashtra and should not hold any other ration card in your name. You must also fall under the income criteria fixed by the Maharashtra Government to apply for ration card."]
+},
+{
+    "tag": "RationcardEdit",
+    "patterns": ["How can I add or delete names of my family members in the ration card?", "how to edit names on ration card", "edit ration card"],
+    "responses": ["If you wish to add names of your family members then you will have to fill Form 8 and submit it to the concerned authorities. For deletion of names of family members, you will have to fill Form 9.", "download the application form for Ration card correction from your State's official Ration card portal. Duly fill the form, and submit it at your nearest ration card office. Along with the form, you will have to submit copies of your supporting documents. or you can refer to the following link-https://services.india.gov.in/service/detail/ration-card-modifications-epds-integration-application-form"]
+},
+{
+    "tag": "rationCardUse",
+    "patterns": ["Can I use my ration card in any state?", "where can i use ration card"],
+    "responses": ["you can use your ration card in any state. However, you will need to get it transferred to the new state if you plan to use it there for an extended period."]
+},
+{
+    "tag": "rationCardDuration",
+    "patterns": ["How long it takes to get a ration card?","The time taken to issue a ration card ?"],
+    "responses": ["The time taken to issue a ration card varies from state to state. Generally, it takes between 15 to 30 days to issue a ration card.","15 to 30 days"]
+},
+{
+    "tag": "rationCardLost",
+    "patterns": ["Can I apply for a duplicate ration card if I lose my original one?","I lost my ration card","duplicate ration card","Ration card lost","what to do i lost my ration card"],
+"responses": ["you can apply for a duplicate ration card by submitting an application and the required documents to the Food, Civil Supplies, and Consumer Affairs Department office."]
+},
+{"tag": "rationCardtypes",
+"patterns": ["What are the types of ration card?","ration card types"],
+"responses": ["There are three types of ration cards - Below Poverty Line (BPL), Above Poverty Line (APL), and Antyodaya Anna Yojana (AAY) ration cards."]
+},
+{
+"tag": "rationCardDocuments",
+"patterns": ["What are the documents required for making a ration card?", "documents required for ration card", "ration card documents"],
+"responses": ["The documents required for making a ration card vary by state, but generally include proof of identity, proof of residence, and a passport-sized photograph. Additional documents may be required depending on the type of ration card you are applying for."]
+},
+{
+    "tag": "Aadhaar card",
+    "patterns": ["What is Aadhaar card?", "How to apply for Aadhaar card", "Aadhaar eligibility criteria", "Aadhaar card documents", "How to update Aadhaar details"],
+    "responses": ["Aadhaar is a 12-digit unique identification number issued by the Unique Identification Authority of India (UIDAI) to every resident of India. To apply for Aadhaar, you need to visit an Aadhaar enrolment centre with your identity and address proof documents. The eligibility criteria for Aadhaar is that you must be a resident of India. The documents required for Aadhaar include proof of identity, proof of address, and a passport-sized photograph. To update Aadhaar details, you can visit the UIDAI website or visit an Aadhaar enrolment centre."]
+},
+{
+    "tag": "Passport",
+    "patterns": ["What is a Passport?", "How to apply for Passport", "Passport eligibility criteria", "Passport documents", "How to track Passport application status"],
+    "responses": ["A Passport is an official government document that certifies one's identity and citizenship, allowing them to travel internationally. To apply for a passport, you can visit the Passport Seva Kendra or Regional Passport Office with the required documents. The eligibility criteria for a passport is that you must be an Indian citizen. The documents required for a passport include proof of identity, proof of address, proof of date of birth, and proof of citizenship. You can track your passport application status online by visiting the Passport Seva website."]
+},
+{
+    "tag": "PANcard",
+    "patterns": ["What is PAN card?", "How to apply for PAN card", "PAN card eligibility criteria", "PAN ", "How to update PAN details"],
+    "responses": ["PAN card is a 10-digit unique identification number issued by the Income Tax Department of India. To apply for a PAN card, you can visit the NSDL or UTIITSL website and fill out the application form online. The eligibility criteria for a PAN card is that you must be an Indian citizen. The documents required for a PAN card include proof of identity, proof of address, and a passport-sized photograph. To update PAN details, you can visit the NSDL or UTIITSL website and fill out the required form."]
+},
+{
+    "tag": "passport_renewal",
+    "patterns": [
+      "How do I renew my passport?",
+      "When should I renew my passport?",
+      "Passport renewal process"
+    ],
+    "responses": [
+      "You can renew your passport by filling out the application form and submitting it along with the required documents. The renewal process should be started at least six months before your passport expires."
+    ]
+  },
+  {
+    "tag": "passport_fees",
+    "patterns": [
+      "How much does a passport cost?",
+      "Passport fees",
+      "Passport fee payment"
+    ],
+    "responses": [
+      "The passport fees vary depending on the type of passport you are applying for and the processing time. You can find the fee details on the passport application website."
+    ]
+  },
+  {
+    "tag": "passport_application_status",
+    "patterns": [
+      "How do I check the status of my passport application?",
+      "Passport application tracking",
+      "Passport application status"
+    ],
+    "responses": [
+      "You can check the status of your passport application online by entering your application number and date of birth on the passport application website."
+    ]
+  },
+  {
+    "tag": "passport_appointment",
+    "patterns": [
+      "How do I schedule a passport appointment?",
+      "Passport appointment booking",
+      "Passport appointment availability"
+    ],
+    "responses": [
+      "You can schedule a passport appointment online by visiting the passport application website and selecting a date and time slot that is available."
+    ]
+  },
+  {
+    "tag": "lost_or_stolen_passport",
+    "patterns": [
+      "What should I do if I lose my passport?",
+      "Stolen passport",
+      "Passport replacement","Passport lost"
+    ],
+    "responses": [
+      "If your passport is lost or stolen, you should report it to the nearest police station and apply for a replacement passport as soon as possible."
+    ]
+  },
+  {
+    "tag": "passport_photo",
+    "patterns": [
+      "What are the requirements for passport photos?",
+      "Passport photo guidelines"
+    ],
+    "responses": [
+      "The passport photo should be a recent, color photo with a white background. It should be 2x2 inches in size and your face should be centered in the photo. You should not wear glasses or a hat in the photo."
+    ]
+  },
+  {
+    "tag": "passport_delivery",
+    "patterns": [
+      "How will I receive my passport?",
+      "Passport delivery process"
+    ],
+    "responses": [
+      "You can choose to receive your passport by mail or pick it up in person from the passport office. You will be notified when your passport is ready for delivery."
+    ]
+  },
+  {
+    "tag": "passport_validity",
+    "patterns": [
+      "How long is a passport valid for?",
+      "Passport expiration date",
+      "Passport validity"
+    ],
+    "responses": [
+      "The validity of a passport varies depending on the type of passport and the country you are visiting. Generally, passports are valid for 10 years for adults and 5 years for minors."
+    ]
+  },
+  {
+    "tag":"PANcardDocuments",
+    "patterns":["What documents are accepted for making PAN card?"],
+    "responses":["There are numerous documents accepted such as, Driving license,Passport,Aadhar Card,Voter ID Card,Electricity Bill,Domicile Certificate,Statement of Credit Card,Statement of Bank,Arm's license,Ration Card."]
+
+},
+{
+    "tag":"PANcardApply",
+    "patterns":["Steps to apply PAN Card Online","Steps to apply PAN Card Offline"],
+    "responses":["STEP 1: Visit www.onlineservices.nsdl.com STEP 2: Click on APPLY ONLINE on the top left corner. STEP 3: Click on the drop-down option and select your valid choice:1.NEW PAN Indian citizen 2.NEW PAN Foreign citizen 3.Changes or Corrections on existing PAN card/Reprint PAN Card. STEP 4:After selecting your choice, select the appropriate CATEGORY. STEP 5: After selecting any one CATEGORY, fill in your details which includes Title, Lastname, Firstname, Middlename, Date of Birth, Email ID, Phone number.STEP 6: After filling the required information, re-type a captcha code and click SUBMIT.STEP 7: After submitting, you will receive a 15-digit acknowledgement number.Then print this page.","STEP 1: Download the Form 49A from the official website o Income Tax Department of India or visit any of the Income Tax PAN service center which is managed by UTIISL.STEP 2: Fill the form with required details.STEP 3: Send a demand draft of Rs.107 including tax along with the application form. STEP 4: If the PAN application is to be sent outside India, additional amount of Rs.887 must be paid. STEP 5: Send this form along with a copy of your ID proof and address proof to - INCOME TAX PAN SERVICES UNIT (Managed by Protean eGov Technologies Limited e-Governance, Infrastructure Limited)"]
+
+},
+{
+    "tag":"PANcardCategory",
+    "patterns":["Different Categories for making PAN Card"],
+    "responses":["There are different Categories for making PAN Card like Individual, Company, Associate of individuals, Hindu Undivided Family, Trust, Artificial Juridical Person, local authority, Government, Firm, Body of individuals"]
+},
+{
+    "tag":"PANcardMinor",
+    "patterns":["Can minors apply for PAN Card?","Steps to apply for PAN Card for a minor Online","Steps to apply for PAN Card for a minor Offline"],
+    "responses":["No,Minors cannot apply for PAN card on their own;instead their guardians or parents have to apply on their behalf.","STEP 1:Visit the official website of NSDL at https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html and read all the instructions for filling the Form 49A at https://tin.tin.nsdl.com/pan/Instructions49A.html .STEP 2:Choose the appropriate category of the applicant and follow the instructions.  STEP 3: Fill out all the personal details. STEP 4: Upload the photographs and documents like age,address and identity proof of the minor as well as of the parents,guardian. STEP 5: The signature of the guardian or parents will be uploaded. STEP 6: Proceed by making the fee payment of Rs. 107 (Rs. 989 for non-resident Indians) via credit card, debit card, net banking or demand draft. STEP 7: After filling the form, click on the SUBMIT button. You will get an acknowledgement number which can be used to track the status of the application. STEP 8: Enclose all the required documents (if not uploaded) along with the demand draft (if chosen as a mode of payment). STEP 9: Label the enclosed envelop with “APPLICATION FOR PAN” and the “Acknowledgement Number” at the following address: Income Tax PAN Services Unit,NSDL e-Governance Infrastructure Limited,5th floor, Mantri Sterling,Plot No. 341, Survey No. 997/8,Model Colony, Near Deep Bungalow Chowk,Pune- 411016. STEP 10: Once your application reaches the destination, you will receive a notification on your provided email address.The PAN card will be sent to mentioned address within 10-15 working days after successful verification.","STEP 1: Download Form 49A from the official NSDL website at https://tin.tin.nsdl.com/pan/Instructions49A.html . STEP 2: Fill the details carefully and attach a copy of relevant documents. STEP 3: Attach two photographs of the child; however, it will not appear on the PAN card. STEP 4: Submit the form along with the documents to the nearest NSDL office along with the fees. STEP 5: After the verification is done successfully, the PAN card will be sent to the mentioned address."]
+}
+
+]}
+
+   
